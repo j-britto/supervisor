@@ -1,0 +1,6 @@
+{
+  "name": "StudyPulse AI — Project Coordinator",
+  "description": "Autonomous project coordination, student reviews monitoring, report & PPT file verification, marks evaluation, and automated email notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

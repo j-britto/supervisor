@@ -1,0 +1,2543 @@
+{
+  "admins": [
+    {
+      "id": "adm_1",
+      "username": "admin_vasanthi",
+      "phone": "9876543210",
+      "userId": "STF-VAS-01",
+      "email": "vasanthi@studypulse.edu",
+      "password": "password123",
+      "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "createdAt": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "adm_2",
+      "username": "ramya",
+      "phone": "9876543000",
+      "userId": "23CS1490",
+      "email": "rajgovindha165@gmail.com",
+      "password": "123456",
+      "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "createdAt": "2026-09-02T08:00:00.000Z"
+    }
+  ],
+  "admin": {
+    "id": "adm_1",
+    "username": "admin_vasanthi",
+    "phone": "9876543210",
+    "userId": "STF-VAS-01",
+    "email": "vasanthi@studypulse.edu",
+    "password": "password123",
+    "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    "role": "admin",
+    "createdAt": "2026-09-01T08:00:00.000Z",
+    "settings": {
+      "aiApiKey": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+    }
+  },
+  "otps": {},
+  "messageTemplates": [],
+  "mentors": [],
+  "teams": [],
+  "students": [],
+  "projects": [],
+  "reviews": [],
+  "notifications": [
+    {
+      "id": "n2",
+      "title": "Paper Accepted Notification",
+      "message": "StudyPulse AI paper accepted for national project symposium.",
+      "date": "2026-09-07 02:15 PM",
+      "read": true,
+      "type": "achievement"
+    }
+  ],
+  "securityAlerts": [
+    {
+      "id": "alert_1789382366282_ardf7",
+      "alertType": "SECURITY_ATTACK_DETECTED",
+      "severity": "CRITICAL",
+      "title": "Security Attack / Malicious Attempt Detected: SQL_INJECTION_ATTEMPT",
+      "message": "A potential security intrusion or malicious payload was intercepted and neutralized by the application firewall.",
+      "error": null,
+      "metadata": {
+        "attackType": "SQL_INJECTION_ATTEMPT",
+        "ip": "127.0.0.1",
+        "method": "PUT",
+        "url": "/api/settings/profile",
+        "userAgent": "curl/7.88.1",
+        "type": "SQL_INJECTION_ATTEMPT",
+        "pattern": "/(--|#|\\/\\*|\\*\\/|;\\s*DROP\\s+TABLE|;\\s*DELETE\\s+FROM)/i",
+        "context": "body.settings.aiApiKey",
+        "sample": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-14T10:39:26.282Z"
+    },
+    {
+      "id": "fw_1789382366279_bsv3",
+      "layer": "Layer 3",
+      "type": "SQL_INJECTION_ATTEMPT",
+      "ip": "127.0.0.1",
+      "url": "/api/settings/profile",
+      "method": "PUT",
+      "userAgent": "curl/7.88.1",
+      "details": {
+        "type": "SQL_INJECTION_ATTEMPT",
+        "pattern": "/(--|#|\\/\\*|\\*\\/|;\\s*DROP\\s+TABLE|;\\s*DELETE\\s+FROM)/i",
+        "context": "body.settings.aiApiKey",
+        "sample": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+      },
+      "timestamp": "2026-09-14T10:39:26.279Z"
+    },
+    {
+      "id": "alert_1789382271753_e8cd4",
+      "alertType": "SECURITY_ATTACK_DETECTED",
+      "severity": "CRITICAL",
+      "title": "Security Attack / Malicious Attempt Detected: SQL_INJECTION_ATTEMPT",
+      "message": "A potential security intrusion or malicious payload was intercepted and neutralized by the application firewall.",
+      "error": null,
+      "metadata": {
+        "attackType": "SQL_INJECTION_ATTEMPT",
+        "ip": "127.0.0.1",
+        "method": "PUT",
+        "url": "/api/settings/profile",
+        "userAgent": "curl/7.88.1",
+        "type": "SQL_INJECTION_ATTEMPT",
+        "pattern": "/(--|#|\\/\\*|\\*\\/|;\\s*DROP\\s+TABLE|;\\s*DELETE\\s+FROM)/i",
+        "context": "body.settings.aiApiKey",
+        "sample": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-14T10:37:51.753Z"
+    },
+    {
+      "id": "fw_1789382271750_yxc0",
+      "layer": "Layer 3",
+      "type": "SQL_INJECTION_ATTEMPT",
+      "ip": "127.0.0.1",
+      "url": "/api/settings/profile",
+      "method": "PUT",
+      "userAgent": "curl/7.88.1",
+      "details": {
+        "type": "SQL_INJECTION_ATTEMPT",
+        "pattern": "/(--|#|\\/\\*|\\*\\/|;\\s*DROP\\s+TABLE|;\\s*DELETE\\s+FROM)/i",
+        "context": "body.settings.aiApiKey",
+        "sample": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+      },
+      "timestamp": "2026-09-14T10:37:51.750Z"
+    },
+    {
+      "id": "alert_1789381898003_nuo3m",
+      "alertType": "SECURITY_ATTACK_DETECTED",
+      "severity": "CRITICAL",
+      "title": "Security Attack / Malicious Attempt Detected: SQL_INJECTION_ATTEMPT",
+      "message": "A potential security intrusion or malicious payload was intercepted and neutralized by the application firewall.",
+      "error": null,
+      "metadata": {
+        "attackType": "SQL_INJECTION_ATTEMPT",
+        "ip": "169.254.169.126",
+        "method": "PUT",
+        "url": "/api/settings/profile",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+        "referer": "https://ais-dev-6fgrfyqrsyohnd5nvv3p2k-141468583501.asia-east1.run.app/profile-settings",
+        "type": "SQL_INJECTION_ATTEMPT",
+        "pattern": "/(--|#|\\/\\*|\\*\\/|;\\s*DROP\\s+TABLE|;\\s*DELETE\\s+FROM)/i",
+        "context": "body.settings.aiApiKey",
+        "sample": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-14T10:31:38.003Z"
+    },
+    {
+      "id": "fw_1789381897999_8bk8",
+      "layer": "Layer 3",
+      "type": "SQL_INJECTION_ATTEMPT",
+      "ip": "169.254.169.126",
+      "url": "/api/settings/profile",
+      "method": "PUT",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "details": {
+        "type": "SQL_INJECTION_ATTEMPT",
+        "pattern": "/(--|#|\\/\\*|\\*\\/|;\\s*DROP\\s+TABLE|;\\s*DELETE\\s+FROM)/i",
+        "context": "body.settings.aiApiKey",
+        "sample": "AQ.Ab8RN6INwuxH_--iyIKB-61gVOwvk45HpIPoLyoflkJhuUE1cQ"
+      },
+      "timestamp": "2026-09-14T10:31:37.999Z"
+    },
+    {
+      "id": "alert_1789377973016_d43zb",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "listen EADDRINUSE: address already in use 0.0.0.0:3000",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 229683200,
+          "heapTotal": 64761856,
+          "heapUsed": 36743240,
+          "external": 4803190,
+          "arrayBuffers": 856919
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-14T09:26:13.016Z"
+    },
+    {
+      "id": "alert_1789307958193_n3ucz",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "listen EADDRINUSE: address already in use 0.0.0.0:3000",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 216129536,
+          "heapTotal": 44908544,
+          "heapUsed": 32111808,
+          "external": 4783932,
+          "arrayBuffers": 845141
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:59:18.193Z"
+    },
+    {
+      "id": "alert_1789307945157_hy7tl",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "listen EADDRINUSE: address already in use 0.0.0.0:3000",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 207441920,
+          "heapTotal": 44908544,
+          "heapUsed": 32116024,
+          "external": 4783934,
+          "arrayBuffers": 845143
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:59:05.157Z"
+    },
+    {
+      "id": "alert_1789307866752_k48vw",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3440926720,
+          "heapTotal": 3243315200,
+          "heapUsed": 3160723856,
+          "external": 9903230,
+          "arrayBuffers": 403292
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.752Z"
+    },
+    {
+      "id": "alert_1789307866679_77git",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3440238592,
+          "heapTotal": 3242627072,
+          "heapUsed": 3159650888,
+          "external": 9903150,
+          "arrayBuffers": 403212
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.679Z"
+    },
+    {
+      "id": "alert_1789307866674_y56vt",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3439550464,
+          "heapTotal": 3241938944,
+          "heapUsed": 3158575984,
+          "external": 9903070,
+          "arrayBuffers": 403132
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.674Z"
+    },
+    {
+      "id": "alert_1789307866669_41hgt",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3438862336,
+          "heapTotal": 3241250816,
+          "heapUsed": 3157495096,
+          "external": 9902990,
+          "arrayBuffers": 403052
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.669Z"
+    },
+    {
+      "id": "alert_1789307866664_pkkum",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3438174208,
+          "heapTotal": 3240562688,
+          "heapUsed": 3156420168,
+          "external": 9902910,
+          "arrayBuffers": 402972
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.664Z"
+    },
+    {
+      "id": "alert_1789307866660_hi2jh",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3437486080,
+          "heapTotal": 3239874560,
+          "heapUsed": 3155347216,
+          "external": 9902830,
+          "arrayBuffers": 402892
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.660Z"
+    },
+    {
+      "id": "alert_1789307866656_8om8y",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436797952,
+          "heapTotal": 3239186432,
+          "heapUsed": 3154272328,
+          "external": 9902750,
+          "arrayBuffers": 402812
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.656Z"
+    },
+    {
+      "id": "alert_1789307866651_6o1x4",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436109824,
+          "heapTotal": 3238498304,
+          "heapUsed": 3153199360,
+          "external": 9902670,
+          "arrayBuffers": 402732
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.651Z"
+    },
+    {
+      "id": "alert_1789307866580_xq4n6",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3435421696,
+          "heapTotal": 3237810176,
+          "heapUsed": 3152124376,
+          "external": 9902590,
+          "arrayBuffers": 402652
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.580Z"
+    },
+    {
+      "id": "alert_1789307866575_z5ozh",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434733568,
+          "heapTotal": 3237122048,
+          "heapUsed": 3151051432,
+          "external": 9902510,
+          "arrayBuffers": 402572
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.575Z"
+    },
+    {
+      "id": "alert_1789307866571_6hcgg",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434045440,
+          "heapTotal": 3236433920,
+          "heapUsed": 3149972032,
+          "external": 9902430,
+          "arrayBuffers": 402492
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.571Z"
+    },
+    {
+      "id": "alert_1789307866567_5mg2i",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3433357312,
+          "heapTotal": 3235745792,
+          "heapUsed": 3148899080,
+          "external": 9902350,
+          "arrayBuffers": 402412
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.567Z"
+    },
+    {
+      "id": "alert_1789307866563_rdvym",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3432669184,
+          "heapTotal": 3235057664,
+          "heapUsed": 3147824200,
+          "external": 9902270,
+          "arrayBuffers": 402332
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.563Z"
+    },
+    {
+      "id": "alert_1789307866558_3ravj",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431981056,
+          "heapTotal": 3234369536,
+          "heapUsed": 3146751264,
+          "external": 9902190,
+          "arrayBuffers": 402252
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.558Z"
+    },
+    {
+      "id": "alert_1789307866554_gg0mr",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431292928,
+          "heapTotal": 3233681408,
+          "heapUsed": 3145676368,
+          "external": 9902110,
+          "arrayBuffers": 402172
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.554Z"
+    },
+    {
+      "id": "alert_1789307866480_qbkyc",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3430604800,
+          "heapTotal": 3232993280,
+          "heapUsed": 3144603352,
+          "external": 9902030,
+          "arrayBuffers": 402092
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.480Z"
+    },
+    {
+      "id": "alert_1789307866476_4jfjb",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429916672,
+          "heapTotal": 3232305152,
+          "heapUsed": 3143528400,
+          "external": 9901950,
+          "arrayBuffers": 402012
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.476Z"
+    },
+    {
+      "id": "alert_1789307866472_q4ca3",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429228544,
+          "heapTotal": 3231617024,
+          "heapUsed": 3142455448,
+          "external": 9901870,
+          "arrayBuffers": 401932
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.472Z"
+    },
+    {
+      "id": "alert_1789307866468_ic2xt",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3428540416,
+          "heapTotal": 3230928896,
+          "heapUsed": 3141380504,
+          "external": 9901790,
+          "arrayBuffers": 401852
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.468Z"
+    },
+    {
+      "id": "alert_1789307866464_xmd56",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3427852288,
+          "heapTotal": 3230240768,
+          "heapUsed": 3140307568,
+          "external": 9901710,
+          "arrayBuffers": 401772
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.464Z"
+    },
+    {
+      "id": "alert_1789307866460_tfp03",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3427164160,
+          "heapTotal": 3229552640,
+          "heapUsed": 3139232664,
+          "external": 9901630,
+          "arrayBuffers": 401692
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.460Z"
+    },
+    {
+      "id": "alert_1789307866456_z446o",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3426476032,
+          "heapTotal": 3228864512,
+          "heapUsed": 3138159704,
+          "external": 9901550,
+          "arrayBuffers": 401612
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.456Z"
+    },
+    {
+      "id": "alert_1789307866451_qmp8w",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3425787904,
+          "heapTotal": 3228176384,
+          "heapUsed": 3137084680,
+          "external": 9901470,
+          "arrayBuffers": 401532
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.451Z"
+    },
+    {
+      "id": "alert_1789307866410_6xkng",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3425099776,
+          "heapTotal": 3227488256,
+          "heapUsed": 3136011312,
+          "external": 9901390,
+          "arrayBuffers": 401452
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.410Z"
+    },
+    {
+      "id": "alert_1789307866405_avk5z",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3441090560,
+          "heapTotal": 3243479040,
+          "heapUsed": 3160975752,
+          "external": 9903310,
+          "arrayBuffers": 403372
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:46.405Z"
+    },
+    {
+      "id": "alert_1789307863571_7oqgh",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3440402432,
+          "heapTotal": 3242790912,
+          "heapUsed": 3159901952,
+          "external": 9903230,
+          "arrayBuffers": 403292
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.571Z"
+    },
+    {
+      "id": "alert_1789307863566_e1226",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3439714304,
+          "heapTotal": 3242102784,
+          "heapUsed": 3158826016,
+          "external": 9903150,
+          "arrayBuffers": 403212
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.566Z"
+    },
+    {
+      "id": "alert_1789307863561_lpplf",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3439026176,
+          "heapTotal": 3241414656,
+          "heapUsed": 3157752224,
+          "external": 9903070,
+          "arrayBuffers": 403132
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.561Z"
+    },
+    {
+      "id": "alert_1789307863557_aefaa",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3438338048,
+          "heapTotal": 3240726528,
+          "heapUsed": 3156676176,
+          "external": 9902990,
+          "arrayBuffers": 403052
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.557Z"
+    },
+    {
+      "id": "alert_1789307863553_5iwi8",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3437649920,
+          "heapTotal": 3240038400,
+          "heapUsed": 3155602368,
+          "external": 9902910,
+          "arrayBuffers": 402972
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.553Z"
+    },
+    {
+      "id": "alert_1789307863480_pjusj",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436961792,
+          "heapTotal": 3239350272,
+          "heapUsed": 3154526608,
+          "external": 9902830,
+          "arrayBuffers": 402892
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.480Z"
+    },
+    {
+      "id": "alert_1789307863475_zo6u4",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436273664,
+          "heapTotal": 3238662144,
+          "heapUsed": 3153452776,
+          "external": 9902750,
+          "arrayBuffers": 402812
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.475Z"
+    },
+    {
+      "id": "alert_1789307863471_m273p",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3435585536,
+          "heapTotal": 3237974016,
+          "heapUsed": 3152377024,
+          "external": 9902670,
+          "arrayBuffers": 402732
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.471Z"
+    },
+    {
+      "id": "alert_1789307863466_jgszj",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434897408,
+          "heapTotal": 3237285888,
+          "heapUsed": 3151303120,
+          "external": 9902590,
+          "arrayBuffers": 402652
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.466Z"
+    },
+    {
+      "id": "alert_1789307863461_2vnnx",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434209280,
+          "heapTotal": 3236597760,
+          "heapUsed": 3150227360,
+          "external": 9902510,
+          "arrayBuffers": 402572
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.461Z"
+    },
+    {
+      "id": "alert_1789307863457_aldrd",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3433521152,
+          "heapTotal": 3235909632,
+          "heapUsed": 3149153520,
+          "external": 9902430,
+          "arrayBuffers": 402492
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.457Z"
+    },
+    {
+      "id": "alert_1789307863453_9sqak",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3432833024,
+          "heapTotal": 3235221504,
+          "heapUsed": 3148077776,
+          "external": 9902350,
+          "arrayBuffers": 402412
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.453Z"
+    },
+    {
+      "id": "alert_1789307863377_h8ljq",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3432144896,
+          "heapTotal": 3234533376,
+          "heapUsed": 3147003912,
+          "external": 9902270,
+          "arrayBuffers": 402332
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.377Z"
+    },
+    {
+      "id": "alert_1789307863373_wr0i8",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431456768,
+          "heapTotal": 3233845248,
+          "heapUsed": 3145928136,
+          "external": 9902190,
+          "arrayBuffers": 402252
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.373Z"
+    },
+    {
+      "id": "alert_1789307863369_klxh1",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3430768640,
+          "heapTotal": 3233157120,
+          "heapUsed": 3144854336,
+          "external": 9902110,
+          "arrayBuffers": 402172
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.369Z"
+    },
+    {
+      "id": "alert_1789307863365_cvpwm",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3430080512,
+          "heapTotal": 3232468992,
+          "heapUsed": 3143778544,
+          "external": 9902030,
+          "arrayBuffers": 402092
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.365Z"
+    },
+    {
+      "id": "alert_1789307863361_h3v52",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429392384,
+          "heapTotal": 3231780864,
+          "heapUsed": 3142704696,
+          "external": 9901950,
+          "arrayBuffers": 402012
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.361Z"
+    },
+    {
+      "id": "alert_1789307863357_rrz76",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3428704256,
+          "heapTotal": 3231092736,
+          "heapUsed": 3141628888,
+          "external": 9901870,
+          "arrayBuffers": 401932
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.357Z"
+    },
+    {
+      "id": "alert_1789307863353_kgmyv",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3428016128,
+          "heapTotal": 3230404608,
+          "heapUsed": 3140555096,
+          "external": 9901790,
+          "arrayBuffers": 401852
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.353Z"
+    },
+    {
+      "id": "alert_1789307863317_151jv",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3427328000,
+          "heapTotal": 3229716480,
+          "heapUsed": 3139479360,
+          "external": 9901710,
+          "arrayBuffers": 401772
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.317Z"
+    },
+    {
+      "id": "alert_1789307863313_3zxfb",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3426639872,
+          "heapTotal": 3229028352,
+          "heapUsed": 3138405408,
+          "external": 9901630,
+          "arrayBuffers": 401692
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.313Z"
+    },
+    {
+      "id": "alert_1789307863309_hcynp",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3425951744,
+          "heapTotal": 3228340224,
+          "heapUsed": 3137329672,
+          "external": 9901550,
+          "arrayBuffers": 401612
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.309Z"
+    },
+    {
+      "id": "alert_1789307863305_t11f8",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3425263616,
+          "heapTotal": 3227652096,
+          "heapUsed": 3136255816,
+          "external": 9901470,
+          "arrayBuffers": 401532
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.305Z"
+    },
+    {
+      "id": "alert_1789307863301_cpyxv",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3424575488,
+          "heapTotal": 3226963968,
+          "heapUsed": 3135179696,
+          "external": 9901390,
+          "arrayBuffers": 401452
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.301Z"
+    },
+    {
+      "id": "alert_1789307863296_suf13",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3440041984,
+          "heapTotal": 3242430464,
+          "heapUsed": 3160305216,
+          "external": 9903310,
+          "arrayBuffers": 403372
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:43.296Z"
+    },
+    {
+      "id": "alert_1789307860469_n7j7s",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3439353856,
+          "heapTotal": 3241742336,
+          "heapUsed": 3159224664,
+          "external": 9903230,
+          "arrayBuffers": 403292
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.469Z"
+    },
+    {
+      "id": "alert_1789307860465_dr7n0",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3438665728,
+          "heapTotal": 3241054208,
+          "heapUsed": 3158146096,
+          "external": 9903150,
+          "arrayBuffers": 403212
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.465Z"
+    },
+    {
+      "id": "alert_1789307860461_kbnw2",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3437977600,
+          "heapTotal": 3240366080,
+          "heapUsed": 3157065544,
+          "external": 9903070,
+          "arrayBuffers": 403132
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.461Z"
+    },
+    {
+      "id": "alert_1789307860458_7pfs0",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3437289472,
+          "heapTotal": 3239677952,
+          "heapUsed": 3155986248,
+          "external": 9902990,
+          "arrayBuffers": 403052
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.458Z"
+    },
+    {
+      "id": "alert_1789307860454_fxffp",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436601344,
+          "heapTotal": 3238989824,
+          "heapUsed": 3154905736,
+          "external": 9902910,
+          "arrayBuffers": 402972
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.454Z"
+    },
+    {
+      "id": "alert_1789307860380_1ddt4",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3435913216,
+          "heapTotal": 3238301696,
+          "heapUsed": 3153827152,
+          "external": 9902830,
+          "arrayBuffers": 402892
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.380Z"
+    },
+    {
+      "id": "alert_1789307860376_w5pr2",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3435225088,
+          "heapTotal": 3237613568,
+          "heapUsed": 3152746640,
+          "external": 9902750,
+          "arrayBuffers": 402812
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.376Z"
+    },
+    {
+      "id": "alert_1789307860372_cjt8w",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434536960,
+          "heapTotal": 3236925440,
+          "heapUsed": 3151668048,
+          "external": 9902670,
+          "arrayBuffers": 402732
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.372Z"
+    },
+    {
+      "id": "alert_1789307860368_9kkoc",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3433848832,
+          "heapTotal": 3236237312,
+          "heapUsed": 3150587472,
+          "external": 9902590,
+          "arrayBuffers": 402652
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.368Z"
+    },
+    {
+      "id": "alert_1789307860361_app8g",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3433160704,
+          "heapTotal": 3235549184,
+          "heapUsed": 3149508896,
+          "external": 9902510,
+          "arrayBuffers": 402572
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.361Z"
+    },
+    {
+      "id": "alert_1789307860358_9omxy",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3432472576,
+          "heapTotal": 3234861056,
+          "heapUsed": 3148428352,
+          "external": 9902430,
+          "arrayBuffers": 402492
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.358Z"
+    },
+    {
+      "id": "alert_1789307860353_fg2sq",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431784448,
+          "heapTotal": 3234172928,
+          "heapUsed": 3147349760,
+          "external": 9902350,
+          "arrayBuffers": 402412
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.353Z"
+    },
+    {
+      "id": "alert_1789307860281_skuix",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431096320,
+          "heapTotal": 3233484800,
+          "heapUsed": 3146269152,
+          "external": 9902270,
+          "arrayBuffers": 402332
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.281Z"
+    },
+    {
+      "id": "alert_1789307860277_ukhwa",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3430408192,
+          "heapTotal": 3232796672,
+          "heapUsed": 3145190552,
+          "external": 9902190,
+          "arrayBuffers": 402252
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.277Z"
+    },
+    {
+      "id": "alert_1789307860273_7ezdg",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429720064,
+          "heapTotal": 3232108544,
+          "heapUsed": 3144109832,
+          "external": 9902110,
+          "arrayBuffers": 402172
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.273Z"
+    },
+    {
+      "id": "alert_1789307860269_n229r",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429031936,
+          "heapTotal": 3231420416,
+          "heapUsed": 3143031184,
+          "external": 9902030,
+          "arrayBuffers": 402092
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.269Z"
+    },
+    {
+      "id": "alert_1789307860265_m2e1g",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3428343808,
+          "heapTotal": 3230732288,
+          "heapUsed": 3141950680,
+          "external": 9901950,
+          "arrayBuffers": 402012
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.265Z"
+    },
+    {
+      "id": "alert_1789307860261_hvmlt",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3427655680,
+          "heapTotal": 3230044160,
+          "heapUsed": 3140872056,
+          "external": 9901870,
+          "arrayBuffers": 401932
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.261Z"
+    },
+    {
+      "id": "alert_1789307860257_kruj1",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3426967552,
+          "heapTotal": 3229356032,
+          "heapUsed": 3139791536,
+          "external": 9901790,
+          "arrayBuffers": 401852
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.257Z"
+    },
+    {
+      "id": "alert_1789307860253_whmio",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3426279424,
+          "heapTotal": 3228667904,
+          "heapUsed": 3138710712,
+          "external": 9901710,
+          "arrayBuffers": 401772
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.253Z"
+    },
+    {
+      "id": "alert_1789307860200_2sa2r",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3425591296,
+          "heapTotal": 3227979776,
+          "heapUsed": 3137630096,
+          "external": 9901630,
+          "arrayBuffers": 401692
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.200Z"
+    },
+    {
+      "id": "alert_1789307860196_ze7ck",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3424903168,
+          "heapTotal": 3227291648,
+          "heapUsed": 3136551512,
+          "external": 9901550,
+          "arrayBuffers": 401612
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.196Z"
+    },
+    {
+      "id": "alert_1789307860192_488cp",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3424215040,
+          "heapTotal": 3226603520,
+          "heapUsed": 3135470864,
+          "external": 9901470,
+          "arrayBuffers": 401532
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.192Z"
+    },
+    {
+      "id": "alert_1789307860188_u6rm0",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3423526912,
+          "heapTotal": 3225915392,
+          "heapUsed": 3134391896,
+          "external": 9901390,
+          "arrayBuffers": 401452
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.188Z"
+    },
+    {
+      "id": "alert_1789307860184_6y0jl",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3439517696,
+          "heapTotal": 3241906176,
+          "heapUsed": 3159382728,
+          "external": 9903310,
+          "arrayBuffers": 403372
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:40.184Z"
+    },
+    {
+      "id": "alert_1789307857379_ouwz2",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3438829568,
+          "heapTotal": 3241218048,
+          "heapUsed": 3158309912,
+          "external": 9903230,
+          "arrayBuffers": 403292
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.379Z"
+    },
+    {
+      "id": "alert_1789307857375_5snq7",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3438141440,
+          "heapTotal": 3240529920,
+          "heapUsed": 3157235120,
+          "external": 9903150,
+          "arrayBuffers": 403212
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.375Z"
+    },
+    {
+      "id": "alert_1789307857370_br0ng",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3437453312,
+          "heapTotal": 3239841792,
+          "heapUsed": 3156162296,
+          "external": 9903070,
+          "arrayBuffers": 403132
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.370Z"
+    },
+    {
+      "id": "alert_1789307857366_exmmc",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436765184,
+          "heapTotal": 3239153664,
+          "heapUsed": 3155076960,
+          "external": 9902990,
+          "arrayBuffers": 403052
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.366Z"
+    },
+    {
+      "id": "alert_1789307857361_mjfp2",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3436077056,
+          "heapTotal": 3238465536,
+          "heapUsed": 3154003864,
+          "external": 9902910,
+          "arrayBuffers": 402972
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.361Z"
+    },
+    {
+      "id": "alert_1789307857357_nkesr",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3435388928,
+          "heapTotal": 3237777408,
+          "heapUsed": 3152929048,
+          "external": 9902830,
+          "arrayBuffers": 402892
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.357Z"
+    },
+    {
+      "id": "alert_1789307857352_uu253",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434700800,
+          "heapTotal": 3237089280,
+          "heapUsed": 3151856192,
+          "external": 9902750,
+          "arrayBuffers": 402812
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.352Z"
+    },
+    {
+      "id": "alert_1789307857279_ec91w",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3434012672,
+          "heapTotal": 3236401152,
+          "heapUsed": 3150781328,
+          "external": 9902670,
+          "arrayBuffers": 402732
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.279Z"
+    },
+    {
+      "id": "alert_1789307857274_szenf",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3433324544,
+          "heapTotal": 3235713024,
+          "heapUsed": 3149708520,
+          "external": 9902590,
+          "arrayBuffers": 402652
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.274Z"
+    },
+    {
+      "id": "alert_1789307857270_xy29l",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3432636416,
+          "heapTotal": 3235024896,
+          "heapUsed": 3148633776,
+          "external": 9902510,
+          "arrayBuffers": 402572
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.270Z"
+    },
+    {
+      "id": "alert_1789307857266_hzt2j",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431948288,
+          "heapTotal": 3234336768,
+          "heapUsed": 3147556952,
+          "external": 9902430,
+          "arrayBuffers": 402492
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.266Z"
+    },
+    {
+      "id": "alert_1789307857261_ui9a4",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3431260160,
+          "heapTotal": 3233648640,
+          "heapUsed": 3146481520,
+          "external": 9902350,
+          "arrayBuffers": 402412
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.261Z"
+    },
+    {
+      "id": "alert_1789307857256_k81jn",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3430572032,
+          "heapTotal": 3232960512,
+          "heapUsed": 3145408720,
+          "external": 9902270,
+          "arrayBuffers": 402332
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.256Z"
+    },
+    {
+      "id": "alert_1789307857252_plp45",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429883904,
+          "heapTotal": 3232272384,
+          "heapUsed": 3144333816,
+          "external": 9902190,
+          "arrayBuffers": 402252
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.252Z"
+    },
+    {
+      "id": "alert_1789307857178_en46c",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3429195776,
+          "heapTotal": 3231584256,
+          "heapUsed": 3143261016,
+          "external": 9902110,
+          "arrayBuffers": 402172
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.178Z"
+    },
+    {
+      "id": "alert_1789307857174_quf2y",
+      "alertType": "APPLICATION_CRASH",
+      "severity": "CRITICAL",
+      "title": "Application Crash Detected (uncaughtException)",
+      "message": "A fatal runtime error caused the server process or request worker to crash. Error context: uncaughtException.",
+      "error": "write EPIPE",
+      "metadata": {
+        "context": "uncaughtException",
+        "nodeVersion": "v22.23.2",
+        "platform": "linux",
+        "memoryUsage": {
+          "rss": 3428507648,
+          "heapTotal": 3230896128,
+          "heapUsed": 3142186144,
+          "external": 9902030,
+          "arrayBuffers": 402092
+        }
+      },
+      "recipients": [
+        "vasanthi@studypulse.edu",
+        "rajgovindha165@gmail.com"
+      ],
+      "loggedAt": "2026-09-13T13:57:37.174Z"
+    }
+  ],
+  "fileUploads": [],
+  "files": [],
+  "upload_links": [
+    {
+      "id": "link_35_1789381790947",
+      "batch_number": 35,
+      "token": "7bacb038905b02fff424cb5922dcdfbc01be0629",
+      "is_active": 1,
+      "upload_link_sent": 0,
+      "upload_link_sent_at": null,
+      "created_at": "2026-09-14T10:29:50.947Z"
+    }
+  ]
+}

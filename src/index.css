@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    
+    /* Day Theme / Light Mode Palette */
+    --bg: #F9F4EE;
+    --bg-app-light: #F9F4EE;
+    --surface: #FFFFFF;
+    --primary-surface-light: #FFFFFF;
+    --glass-card-bg-light: #FFFFFF;
+    
+    --primary: #1E3FA6;
+    --primary-brand: #1E3FA6;
+    --deep-royal-blue: #173285;
+    --bright-blue-accent: #3B82F6;
+    --light-blue-accent: #E8EDFA;
+    --soft-blue-bg: #F1F4FC;
+    
+    /* Pure Black Text in Light Theme */
+    --text-primary: #000000;
+    --text-body: #000000;
+    --text-secondary: #000000;
+    --text-muted: #000000;
+    --main-text-light: #000000;
+    --secondary-text-light: #000000;
+    --muted-text-light: #000000;
+    
+    /* Purple-Blue Border & Soft Shadow */
+    --border: rgba(99, 102, 241, 0.35);
+    --border-purple-blue: rgba(99, 102, 241, 0.35);
+    --border-light: rgba(99, 102, 241, 0.35);
+    --glass-border-light: rgba(99, 102, 241, 0.35);
+    
+    --shadow-card: 0 8px 30px rgba(30, 63, 166, 0.08);
+    --shadow-card-hover: 0 12px 36px rgba(30, 63, 166, 0.16), 0 0 18px rgba(99, 102, 241, 0.25);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-app-light);
+    color: #000000;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* ENFORCE ALL TEXT COLOR IN LIGHT THEME TO BLACK */
+html:not(.dark),
+.light,
+[data-theme="light"] {
+  color: #000000 !important;
+}
+
+html:not(.dark) body {
+  background-color: #F9F4EE !important;
+  color: #000000 !important;
+}
+
+html:not(.dark) h1,
+html:not(.dark) h2,
+html:not(.dark) h3,
+html:not(.dark) h4,
+html:not(.dark) h5,
+html:not(.dark) h6,
+html:not(.dark) p,
+html:not(.dark) span:not(.text-white):not(.preserve-white),
+html:not(.dark) label,
+html:not(.dark) td,
+html:not(.dark) th,
+html:not(.dark) input,
+html:not(.dark) select,
+html:not(.dark) textarea,
+html:not(.dark) div:not(.royal-gradient):not(.bg-\[\#1E3FA6\]):not(.bg-blue-600) > span.text-slate-500,
+html:not(.dark) div:not(.royal-gradient):not(.bg-\[\#1E3FA6\]):not(.bg-blue-600) > span.text-slate-400,
+html:not(.dark) .text-slate-900,
+html:not(.dark) .text-slate-800,
+html:not(.dark) .text-slate-700,
+html:not(.dark) .text-slate-600,
+html:not(.dark) .text-slate-500,
+html:not(.dark) .text-slate-400,
+html:not(.dark) .text-gray-900,
+html:not(.dark) .text-gray-800,
+html:not(.dark) .text-gray-700,
+html:not(.dark) .text-gray-600,
+html:not(.dark) .text-gray-500,
+html:not(.dark) .text-slate-300 {
+  color: #000000 !important;
+}
+
+/* Preserve White Text on Solid Buttons and Badges */
+html:not(.dark) .text-white,
+html:not(.dark) .royal-gradient,
+html:not(.dark) .royal-gradient *,
+html:not(.dark) button.bg-\[\#1E3FA6\],
+html:not(.dark) button.bg-\[\#1E3FA6\] *,
+html:not(.dark) button.bg-blue-600,
+html:not(.dark) button.bg-blue-600 *,
+html:not(.dark) .btn-primary,
+html:not(.dark) .btn-primary * {
+  color: #ffffff !important;
+}
+
+/* Glassmorphism & Card Boxes with Purple-Blue Border and Box Shadow */
+.glass-panel {
+  background: #FFFFFF !important;
+  border: 1.5px solid rgba(99, 102, 241, 0.35) !important;
+  box-shadow: 0 8px 30px rgba(30, 63, 166, 0.08) !important;
+  border-radius: 16px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.glass-panel-hover:hover,
+.glass-panel:hover {
+  border-color: rgba(99, 102, 241, 0.65) !important;
+  box-shadow: 0 12px 36px rgba(30, 63, 166, 0.16), 0 0 18px rgba(99, 102, 241, 0.25) !important;
+}
+
+/* Dark Theme Card Overrides */
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border: 1.5px solid rgba(99, 102, 241, 0.45) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37) !important;
+}
+
+.dark .glass-panel-hover:hover,
+.dark .glass-panel:hover {
+  border-color: #818cf8 !important;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.7), 0 0 38px rgba(99, 102, 241, 0.35) !important;
+}
+
+/* Royal Brand Gradients & Buttons (#1E3FA6) */
+.royal-gradient {
+  background: #1E3FA6 !important;
+  color: #ffffff !important;
+  border: 1.5px solid #1E3FA6;
+  box-shadow: 0 4px 14px rgba(30, 63, 166, 0.25);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease, background-color 0.2s ease;
+}
+
+.royal-gradient:hover {
+  background: #173285 !important;
+  border-color: rgba(99, 102, 241, 0.7) !important;
+  box-shadow: 0 0 18px rgba(99, 102, 241, 0.35), 0 6px 20px rgba(30, 63, 166, 0.3) !important;
+}
+
+/* Global button hover behavior */
+button:not(.no-hover-override) {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease, transform 0.15s ease;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.03);
+}
+
+.royal-gradient-hover {
+  background: linear-gradient(135deg, #173285, #1E3FA6, #2563EB);
+}
+
+.indigo-gradient {
+  background: linear-gradient(135deg, #1E3FA6, #4f46e5, #6366f1);
+}
+
+.bg-atmosphere-light {
+  background-color: #F9F4EE !important;
+  background-image: 
+    radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.08), transparent 35%),
+    radial-gradient(circle at 90% 20%, rgba(30, 63, 166, 0.06), transparent 35%);
+}
+
+.bg-atmosphere-dark {
+  background-image: 
+    radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.15), transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(34, 211, 238, 0.10), transparent 40%);
+}
+
+/* Inputs in light theme */
+html:not(.dark) input,
+html:not(.dark) select,
+html:not(.dark) textarea {
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+  border-color: rgba(99, 102, 241, 0.35) !important;
+}
+
+html:not(.dark) input:focus,
+html:not(.dark) select:focus,
+html:not(.dark) textarea:focus {
+  border-color: #1E3FA6 !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.6);
+}
+
+/* Print styling for Final Report */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .glass-panel {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+  }
+}
+
